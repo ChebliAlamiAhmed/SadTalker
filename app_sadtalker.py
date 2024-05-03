@@ -1,4 +1,6 @@
 import os, sys
+sys.path.append( "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages" )
+
 import gradio as gr
 from src.gradio_demo import SadTalker  
 
